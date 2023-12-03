@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G1426" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Tarea" representedClassName="Tarea" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="estado" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="fechaDeCreacion" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaDeVencimiento" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="prioridad" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Usuario" representedClassName="Usuario" syncable="YES" codeGenerationType="class">
+        <attribute name="contrasena" optional="YES" attributeType="String" minValueString="3" maxValueString="30"/>
+        <attribute name="nombre" optional="YES" attributeType="String" minValueString="3" maxValueString="30"/>
+        <attribute name="usuario" optional="YES" attributeType="String" minValueString="3" maxValueString="30"/>
+    </entity>
+    <elements>
+        <element name="Tarea" positionX="315.2276611328125" positionY="27.33233642578125" width="128" height="119"/>
+        <element name="Usuario" positionX="252.1273803710938" positionY="338.879150390625" width="128" height="74"/>
+    </elements>
+</model>
